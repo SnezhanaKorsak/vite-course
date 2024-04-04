@@ -1,0 +1,4 @@
+.eslintrc.cjs
+.git
+node_modules
+build

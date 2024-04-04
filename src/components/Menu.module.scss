@@ -1,0 +1,27 @@
+.menu {
+    background-color: palevioletred; 
+    width: 20%;
+    height: 100vh;
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        list-style-type: none;
+    
+        .link {
+            
+            font-size: 32px;
+            padding: 15px 25px;
+
+            & > a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            &:hover {
+                border: 1px solid white;
+            }
+        }
+    }
+}
