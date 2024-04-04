@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SnezhanaKorsak.github.io/vite-template",
+  "homepage": "https://SnezhanaKorsak.github.io/vite-course",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
