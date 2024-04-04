@@ -28,6 +28,7 @@ export default defineConfig(({ mode }) => {
     mode,
     /** Префикс для env переменных */
     envPrefix: ["APP", "VITE"],
+    basename: "/vite-template",
     /** Настройки для сервера */
     server: {
       port: ports[mode],
