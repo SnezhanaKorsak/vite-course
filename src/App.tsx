@@ -23,7 +23,7 @@ export const App = () => {
 
       <div className={styles.content}>
         <div className={styles.info}>
-          <h1>Count: {count}</h1>
+          <h1>Count is: {count}</h1>
           <button type="button" className={styles.button} onClick={increment}>
             Add
           </button>
