@@ -82,12 +82,12 @@ export default defineConfig(({ mode }) => {
       environment: "jsdom",
       setupFiles: ["./src/setupTests.ts"],
     },
-    build: {
-      /** Название  output директории */
+    /*build: {
+      /!** Название  output директории *!/
       outDir: "dist",
-      /** Директория для вложения сгенерированных ресурсов (assets) относительно outDir */
+      /!** Директория для вложения сгенерированных ресурсов (assets) относительно outDir *!/
       assetsDir: "assets",
-      /** Включить/отключить разделение CSS кода на файлы */
+      /!** Включить/отключить разделение CSS кода на файлы *!/
       cssCodeSplit: false,
       rollupOptions: {
         output: {
@@ -102,6 +102,6 @@ export default defineConfig(({ mode }) => {
           entryFileNames: "assets/[name]-[hash].js",
         },
       },
-    },
+    },*/
   } as ViteConfig);
 });
