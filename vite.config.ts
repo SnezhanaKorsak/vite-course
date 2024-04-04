@@ -28,8 +28,6 @@ export default defineConfig(({ mode }) => {
     mode,
     /** Префикс для env переменных */
     envPrefix: ["APP", "VITE"],
-    /** Настройки для деплоя приложения */
-    basename: "/vite-course/",
     /** Настройки для сервера */
     server: {
       port: ports[mode],
